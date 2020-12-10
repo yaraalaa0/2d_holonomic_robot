@@ -21,7 +21,7 @@ $ catkin_make
 
 $ rosrun my_srv2 tserver
 
-$ rosrun stage_ros stageros $(rospack find aignment1)/world/exercise.world
+$ rosrun stage_ros stageros $(rospack find assignment1)/world/exercise.world
 
 $ rosrun assignment1 controller
 
