@@ -5,7 +5,7 @@ The repo is composed of 2 packages: assignment1 and my_srv2
 
 my_srv2 package: contains tserver node, a service server used for calculating random targets (x,y) given min and max values
 
-assignment1 packeage: contains controller node that is used to request random target (x,y) from tserver, control the robot to go to the target, then requesting another random target (forever). 
+assignment1 packeage: contains controller node that is used to: receive robot's position by subscribing to /odom topic, request random target (x,y) from tserver, control the robot to go to the target using /cmd_vel topic, then requesting another random target (forever). 
 
 The rqt_graph of the program:
 
