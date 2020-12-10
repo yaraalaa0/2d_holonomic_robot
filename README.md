@@ -15,12 +15,14 @@ The rqt_graph of the program:
 
 download the repository into your ros workspace
 
-catkin_make (in the root of your workspace)
+in the root of your workspace:
 
-rosrun my_srv2 tserver
+$ catkin_make 
 
-rosrun stage_ros stageros $(rospack find aignment1)/world/exercise.world
+$ rosrun my_srv2 tserver
 
-rosrun assignment1 controller
+$ rosrun stage_ros stageros $(rospack find aignment1)/world/exercise.world
+
+$ rosrun assignment1 controller
 
 
